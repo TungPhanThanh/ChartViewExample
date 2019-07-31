@@ -4,12 +4,6 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.annotation.NonNull;
-import android.annotation.Nullable;
-import com.google.android.material.snackbar.Snackbar;
-
-import android.appcompat.app.AppCompatActivity;
-import android.core.app.ActivityCompat;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
@@ -27,11 +21,11 @@ import com.github.mikephil.charting.charts.Chart;
  */
 public abstract class DemoBase extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback {
 
-    protected final String[] months = new String[] {
+    protected final String[] months = new String[]{
             "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"
     };
 
-    protected final String[] parties = new String[] {
+    protected final String[] parties = new String[]{
             "Party A", "Party B", "Party C", "Party D", "Party E", "Party F", "Party G", "Party H",
             "Party I", "Party J", "Party K", "Party L", "Party M", "Party N", "Party O", "Party P",
             "Party Q", "Party R", "Party S", "Party T", "Party U", "Party V", "Party W", "Party X",
